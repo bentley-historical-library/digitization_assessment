@@ -1,0 +1,13 @@
+<%
+  section_id = "digitization_assessment" if section_id.blank?
+%>
+
+<section id="<%= section_id %>" class="subrecord-form-dummy">
+  <h3><%= I18n.t("plugins.digitization_assessment._singular") %></h3>
+
+  <div class="subrecord-form-container">
+      <div class="subrecord-form-fields">
+	<%= read_only_view(digitization_assessment) %>
+      </div>
+  </div>
+</section>

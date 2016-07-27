@@ -1,0 +1,16 @@
+en:
+  plugins:
+    digitization_assessment: 
+      label: Digitization Assessment
+      assessed: Assessed
+      description_updated: Description Updated
+      assessment_notes: Notes
+      _plural: Digitization Assessment
+      _singular: Digitization Assessment
+      _frontend:
+        action:
+          add: Add Digitization Assessment
+  digitization_assessment:
+    assessed: Assessed
+    description_updated: Description Updated
+    assessment_notes: Notes

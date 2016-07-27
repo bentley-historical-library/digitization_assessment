@@ -1,0 +1,4 @@
+parents:
+  archival_object:
+    name: digitization_assessment
+    cardinality: zero_to_one
